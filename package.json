@@ -1,0 +1,26 @@
+{
+  "name": "quiz-ao-vivo",
+  "version": "1.0.0",
+  "description": "Quiz multiplayer ao vivo: telão + celulares sincronizados por Socket.IO",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test scripts/game.test.js scripts/e2e.test.js",
+    "simular": "node scripts/simular.js",
+    "carga": "node scripts/carga.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.22.3",
+    "htm": "^3.1.1",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}

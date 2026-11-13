@@ -1,0 +1,67 @@
+{
+  "titulo": "[NOME DO QUIZ]",
+  "segundosPorPergunta": 45,
+  "segundosContagem": 3,
+  "dobroNaUltima": true,
+  "revelarQuandoTodosResponderem": true,
+  "perguntas": [
+    {
+      "pergunta": "[PERGUNTA 1]",
+      "opcoes": [
+        "[RESPOSTA A]",
+        "[RESPOSTA B]"
+      ],
+      "certa": 1
+    },
+    {
+      "pergunta": "[PERGUNTA 2]",
+      "opcoes": [
+        "[RESPOSTA A]",
+        "[RESPOSTA B]"
+      ],
+      "certa": 0
+    },
+    {
+      "pergunta": "[PERGUNTA 3]",
+      "opcoes": [
+        "[RESPOSTA A]",
+        "[RESPOSTA B]"
+      ],
+      "certa": 0
+    },
+    {
+      "pergunta": "[PERGUNTA 4]",
+      "opcoes": [
+        "[RESPOSTA A]",
+        "[RESPOSTA B]"
+      ],
+      "certa": 1
+    },
+    {
+      "pergunta": "[PERGUNTA 5]",
+      "opcoes": [
+        "[RESPOSTA A]",
+        "[RESPOSTA B]"
+      ],
+      "certa": 1
+    },
+    {
+      "pergunta": "[PERGUNTA 6]",
+      "opcoes": [
+        "[RESPOSTA A]",
+        "[RESPOSTA B]"
+      ],
+      "certa": 1
+    },
+    {
+      "pergunta": "[PERGUNTA 7]",
+      "opcoes": [
+        "[RESPOSTA A]",
+        "[RESPOSTA B]",
+        "[RESPOSTA C]",
+        "[RESPOSTA D]"
+      ],
+      "certa": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: quiz-ao-vivo
+    runtime: node
+    plan: free
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /healthz
+    # O estado da partida fica na memória do processo: mantenha uma única instância.
+    numInstances: 1
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: HOST_KEY
+        generateValue: true
