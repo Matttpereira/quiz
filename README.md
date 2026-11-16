@@ -1,9 +1,24 @@
 # Quiz ao Vivo
 
+[![Testes](https://github.com/Matttpereira/quiz/actions/workflows/testes.yml/badge.svg)](https://github.com/Matttpereira/quiz/actions/workflows/testes.yml)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-4-010101?logo=socketdotio&logoColor=white)
+![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-blue)
+
 Quiz multiplayer para o fim da apresentação: o **telão** (projetor/TV) mostra a
 sala, as perguntas, o ranking e o pódio; cada colaborador entra pelo **celular**
 lendo o QR Code, sem instalar nada. Tudo fica sincronizado em tempo real por um
 único servidor.
+
+
+![Telão e celular durante uma pergunta](docs/telao-e-celular.png)
+
+<details>
+<summary>Sala de espera no telão (jogadores entrando pelo QR Code)</summary>
+
+![Sala de espera](docs/sala-de-espera.png)
+
+</details>
 
 ## Rodar no computador
 
@@ -140,3 +155,9 @@ As telas, cores, fontes, animações e personagens são os do design. Mudou apen
 - **Mensagens novas**: erro de apelido, "Reconectando…", "Enviando…" e chave do apresentador.
 - **QR Code** real no lugar do placeholder, com o endereço escrito embaixo para quem preferir digitar.
 - "X de **18** responderam" e "de 18" usam o número real de jogadores.
+
+---
+
+## 📄 Licença
+
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE).
